@@ -33,9 +33,9 @@
             <a href="#" class="btn btn-outline-dark">Contact</a>
           </div>
           <!-- 로고 -->
-          <div class="col-4 log">
+          <div class="col-4 log mt-3">
             <a href="index.html" class="navbar-brand d-flex">
-              <img src="/assets/images/logo1.png" alt="" class="img-fluid ms-auto" width="200px" data-bs-toggle="tooltip" data-bs-placement="bottom" title="My amazing website!!">
+              <img src="/assets/images/logo1.png" alt="" class="img-fluid ms-auto" width="230px"data-bs-toggle="tooltip" data-bs-placement="bottom" title="My amazing website!!">
             </a>
           </div>
           <!-- 헤더 우측 아이콘들-->
@@ -62,10 +62,10 @@
     </section>
 
     <!-- navbar[S] -->
-    <nav class="navbar navbar-expand-md navbar-dark" style="background-color: #0e2d16">
+    <nav id="navPrimary" class="navbar navbar-expand-md navbar-dark">
       <div class="container-xxl">
         <a class="navbar-brand d-block d-md-none" href="index.html">
-          <img src="/assets/images/dummy-logo.png" alt="Logo" class="img-fluid">
+          <img src="/assets/images/logo1.png" alt="Logo" class="img-fluid">
         </a>
         <div class="collapse navbar-collapse" id="navPrimaryContent">
           <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
@@ -82,7 +82,7 @@
               </ul>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="page.html">Documents</a>
+              <a class="nav-link" href="page.html">Board</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="page.html">Gallery</a>
@@ -142,6 +142,52 @@
     <!-- navbar[E] -->
   </header>
   <!-- 헤더[E] -->
+  
+  <!-- Carousel[S] -->
+  <section id="frontCarousel" class="container-xxl carousel slide carousel-fade" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#frontCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#frontCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#frontCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div align="center">
+	    <div class="carousel-inner">
+	      <div class="carousel-item active" style="background-image: url('/assets/images/pets.jpg'); ">
+	        <div class="carousel-overlay text-white d-flex justify-content-center align-items-center">
+	          <div class="carousel-text text-center px-md-5">
+	            <h1 class="carousel-title display-4">Slide 1</h1>
+	            <h3 class="carousel-subtitle">Slide 1 Description. Lorem ipsum dolor sit.</h3>
+	          </div>
+	        </div>
+	      </div>
+	      <div class="carousel-item" style="background-image: url('/assets/images/puppy.jpg'); ">
+	        <div class="carousel-overlay text-white d-flex justify-content-center align-items-center">
+	          <div class="carousel-text text-center px-md-5">
+	            <h1 class="carousel-title display-4">Slide 2</h1>
+	            <h3 class="carousel-subtitle">Slide 2 Description. Lorem ipsum dolor sit.</h3>
+	          </div>
+	        </div>
+	      </div>
+	      <div class="carousel-item" style="background-image: url('/assets/images/smile.jpg'); ">
+	        <div class="carousel-overlay text-white d-flex justify-content-center align-items-center">
+	          <div class="carousel-text text-center px-md-5">
+	            <h1 class="carousel-title display-4">Slide 3</h1>
+	            <h3 class="carousel-subtitle">Slide 3 Description. Lorem ipsum dolor sit.</h3>
+	          </div>
+	        </div>
+	      </div>
+	    </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#frontCarousel" data-bs-slide="prev" style="padding-left: 100px">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#frontCarousel" data-bs-slide="next" style="padding-right: 100px">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </section>
+  <!-- Carousel[E] -->
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
   <!-- Kakao map appkey here -->

@@ -12,3 +12,25 @@
 #header #navPrimary {
   background-color: #0e2d16;
 }/*# sourceMappingURL=app.css.map */
+
+#frontCarousel {
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
+  border-radius: 1rem;
+}
+#frontCarousel .carousel-inner {
+  border-radius: 1rem;
+  box-shadow: 0 16px 24px 2px rgba(0, 0, 0, 0.14), 0 6px 30px 5px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+  width: 150vh
+}
+#frontCarousel .carousel-inner .carousel-item {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 60vh;
+}
+#frontCarousel .carousel-inner .carousel-item .carousel-overlay {
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.35);
+}/*# sourceMappingURL=app.css.map */
