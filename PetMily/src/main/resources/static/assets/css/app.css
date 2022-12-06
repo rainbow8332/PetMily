@@ -1,0 +1,14 @@
+
+.shadow-box {
+  transition: 0.5s ease-in;
+}
+.shadow-box:hover {
+  box-shadow: 0 16px 24px 2px rgba(0, 0, 0, 0.14), 0 6px 30px 5px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+}
+
+#header #navTop .socials a img {
+  border-radius: 0.75rem;
+}
+#header #navPrimary {
+  background-color: #0e2d16;
+}/*# sourceMappingURL=app.css.map */
