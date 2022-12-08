@@ -34,3 +34,28 @@
   width: 100%;
   background-color: rgba(0, 0, 0, 0.35);
 }/*# sourceMappingURL=app.css.map */
+
+
+ /* Front programs section */
+#frontPrograms {
+  background-color: #e4e0de;
+}
+#frontPrograms .program-item {
+  border-radius: 1rem;
+}
+#frontPrograms .program-item a {
+  color: #0e2d16;
+}
+#frontPrograms .program-item img {
+  border-radius: 1rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+  height: 130px;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+#frontPrograms .program-item p {
+  font-size: 1.1rem;
+}/*# sourceMappingURL=app.css.map */

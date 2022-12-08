@@ -1,3 +1,5 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -19,7 +21,7 @@
     crossorigin="anonymous" referrerpolicy="no-referrer" />
 
   <link rel="stylesheet" href="assets/css/app.css">
-  <title>PeyMily</title>
+  <title>PetMily</title>
 </head>
 
 <body>
@@ -155,8 +157,8 @@
 	      <div class="carousel-item active" style="background-image: url('/assets/images/pets.jpg'); ">
 	        <div class="carousel-overlay text-white d-flex justify-content-center align-items-center">
 	          <div class="carousel-text text-center px-md-5">
-	            <h1 class="carousel-title display-4">Slide 1</h1>
-	            <h3 class="carousel-subtitle">Slide 1 Description. Lorem ipsum dolor sit.</h3>
+	            <h1 class="carousel-title display-4">펫밀리</h1>
+	            <h3 class="carousel-subtitle">반려견과 사람이 함께하는 아름다운 동행</h3>
 	          </div>
 	        </div>
 	      </div>
@@ -188,6 +190,57 @@
     </button>
   </section>
   <!-- Carousel[E] -->
+  
+   <!-- Front programs section[S] -->
+  <section id="frontPrograms">
+    <div class="section-content">
+      <div class="container-xxl">
+        <div class="row justify-content-center">
+          <div class="col-md-10 text-center">
+           <br>
+            <h3 class="mb-3">펫과사전</h3>
+            <p class="lead">알면알수록 쓸모있는 펫과사전</p>
+            <br>
+              <div class="row justify-content-center px-2">
+                <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+                  <div class="program-item bg-white border p-2 shadow-box">
+                    <a href="page.html" class="text-decoration-none">
+                      <img src="/assets/images/shihtzu.png" alt="Project 1" class="img-fluid">
+                    </a>
+                    <p class="mb-0">시츄</p>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+                  <div class="program-item bg-white border p-2 shadow-box">
+                    <a href="page.html" class="text-decoration-none">
+                      <img src="/assets/images/poodle.png" alt="Project 2" class="img-fluid">
+                    </a>
+                    <p class="mb-0">푸들</p>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+                  <div class="program-item bg-white border p-2 shadow-box">
+                    <a href="page.html" class="text-decoration-none">
+                      <img src="/assets/images/bichon.jpg" alt="Project 3" class="img-fluid">
+                    </a>
+                    <p class="mb-0">비숑</p>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+                  <div class="program-item bg-white border p-2 shadow-box">
+                    <a href="page.html" class="text-decoration-none">
+                      <img src="/assets/images/goldenlessriver.png" alt="Project 4" class="img-fluid">
+                    </a>
+                    <p class="mb-0">골든 리트리버</p>
+                  </div>
+                </div>
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Front programs section[E] -->
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
   <!-- Kakao map appkey here -->
