@@ -1,0 +1,171 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="assets/css/app.css">
+  <title>PetMily</title>
+</head>
+
+	<body>
+<!-- 헤더[S] -->
+  <header id="header" class="wrapper">
+    <section id="navTop" class="nav-top py-2 d-none d-md-block">
+      <div class="container">
+        <div class="row align-items-center justify-content-center">
+          <!-- 헤더 좌측 버튼-->
+          <div class="col-3 text-start lead fast-counsel">
+            <a href="#" class="btn btn-outline-dark">Contact</a>
+          </div>
+          <!-- 로고 -->
+          <div class="col-4 log mt-3">
+            <a href="index.jsp" class="navbar-brand d-flex">
+              <img src="/assets/images/logo1.png" alt="" class="img-fluid ms-auto" width="230px"data-bs-toggle="tooltip" data-bs-placement="bottom" title="My amazing website!!">
+            </a>
+          </div>
+          <!-- 헤더 우측 아이콘들-->
+          <div class="col-5 text-end socials">
+            <a href="tel:02-111-1111" class="mx-1 text-decoration-none">
+              <img src="/assets/images/icon-phone.png" alt="Phone" width="40px" class="shadow-box">
+            </a>
+            <a target="_blank" href="" class="mx-1 text-decoration-none">
+              <img src="/assets/images/icon-kakao-channel.png" alt="Kakao Channel" width="40px" class="shadow-box">
+            </a>
+            <a target="_blank" href="" class="mx-1 text-decoration-none">
+              <img src="/assets/images/icon-facebook.png" alt="Facebook" width="40px" class="shadow-box">
+            </a>
+            <a target="_blank" href="" class="mx-1 text-decoration-none">
+              <img src="/assets/images/icon-twitter.png" alt="icon-twitter" width="40px" class="shadow-box">
+            </a>
+            <a target="_blank" href="" class="mx-1 text-decoration-none">
+              <img src="/assets/images/icon-youtube.png" alt="Youtube" width="40px" class="shadow-box">
+            </a>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- navbar[S] -->
+    <nav id="navPrimary" class="navbar navbar-expand-md navbar-dark">
+      <div class="container-xxl">
+        <a class="navbar-brand d-block d-md-none" href="index.html">
+          <img src="/assets/images/logo1.png" alt="Logo" class="img-fluid">
+        </a>
+        <div class="collapse navbar-collapse" id="navPrimaryContent">
+          <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Intro
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="page.html">About us</a></li>
+                <li><a class="dropdown-item" href="page.html">Find us</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="page.html">Board</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="page.html">Gallery</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="page.html">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="page.html">Events</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="page.html">Reviews</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="page.html">Reservation</a>
+            </li>
+            <!-- 검색 버튼-->
+            <li class="nav-item">
+              <a class="nav-link btn btn-outline-secondary" href="#"><i class="fa fa-search"></i></a>
+            </li>
+          </ul>
+        </div>
+
+        <!-- offcanvas -->
+        <button class="btn btn-outline-secondary d-block d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+
+        <div class="offcanvas offcanvas-end d-block d-md-none" data-bs-scroll="true" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvasRightLabel">My second web</h5>
+            <button class="btn-close text-reset" type="button" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="list-unstyled mobile-menu">
+              <li><a href="index.html" class="text-decoration-none link-dark active">Home</a></li>
+              <li>
+                <a href="page.html" class="text-decoration-none link-dark">Intro</a>
+                <ul class="list-unstyled ms-3">
+                  <li><a href="page.html" class="text-decoration-none link-dark">About us</a></li>
+                  <li><a href="page.html" class="text-decoration-none link-dark">Find us</a></li>
+                </ul>
+              </li>
+              <li><a href="page.html" class="text-decoration-none link-dark">Documents</a></li>
+              <li><a href="page.html" class="text-decoration-none link-dark">Gallery</a></li>
+              <li><a href="page.html" class="text-decoration-none link-dark">Blog</a></li>
+              <li><a href="page.html" class="text-decoration-none link-dark">Events</a></li>
+              <li><a href="page.html" class="text-decoration-none link-dark">Reviews</a></li>
+              <li><a href="page.html" class="text-decoration-none link-dark">Reservation</a></li>
+              <li><a href="#" class="btn btn-outline-secondary w-100"><i class="fa fa-search"></i></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- navbar[E] -->
+  </header>
+ <!-- 헤더[E] -->
+
+	<form action="write" mothod="post">
+	<h1>게시판 검색</h1>
+	<table width="500" cellpadding="0" cellspacing="0" border="1">
+		<tr>
+			<td>번호</td>
+			<td>이름</td>
+			<td>제목</td>
+			<td>날짜</td>
+		</tr>
+		<c:forEach items="${list}" var="dto">
+		<tr>
+			<td>${dto.bId}</td>
+			<td>${dto.bName}</td>
+			<td><a href="content_view?bId=${dto.bId}">${dto.bTitle}</a></td>
+			<td>${dto.bDate}</td>
+		</tr>
+		</c:forEach>
+		<tr>
+			<td colspan="5"> <a href="write_view">글작성</a> </td>
+		</tr>
+	</table>
+	
+		
+</form>
+	
+	
+	  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+	  <!-- Kakao map appkey here -->
+	  <script src="/assets/js/app.js"></script>
+	
+	</body>
+</html>

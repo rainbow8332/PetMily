@@ -36,7 +36,7 @@
           </div>
           <!-- 로고 -->
           <div class="col-4 log mt-3">
-            <a href="index.html" class="navbar-brand d-flex">
+            <a href="/index" class="navbar-brand d-flex">
               <img src="/assets/images/logo1.png" alt="" class="img-fluid ms-auto" width="230px"data-bs-toggle="tooltip" data-bs-placement="bottom" title="My amazing website!!">
             </a>
           </div>
@@ -165,16 +165,16 @@
 	      <div class="carousel-item" style="background-image: url('/assets/images/puppy.jpg'); ">
 	        <div class="carousel-overlay text-white d-flex justify-content-center align-items-center">
 	          <div class="carousel-text text-center px-md-5">
-	            <h1 class="carousel-title display-4">Slide 2</h1>
-	            <h3 class="carousel-subtitle">Slide 2 Description. Lorem ipsum dolor sit.</h3>
+	            <h1 class="carousel-title display-4">우리는 함께</h1>
+	            <h3 class="carousel-subtitle">가족이자 친구인 소중한 마이펫!</h3>
 	          </div>
 	        </div>
 	      </div>
 	      <div class="carousel-item" style="background-image: url('/assets/images/smile.jpg'); ">
 	        <div class="carousel-overlay text-white d-flex justify-content-center align-items-center">
 	          <div class="carousel-text text-center px-md-5">
-	            <h1 class="carousel-title display-4">Slide 3</h1>
-	            <h3 class="carousel-subtitle">Slide 3 Description. Lorem ipsum dolor sit.</h3>
+	            <h1 class="carousel-title display-4">Smile</h1>
+	            <h3 class="carousel-subtitle">그 미소를 지켜주세요</h3>
 	          </div>
 	        </div>
 	      </div>
@@ -223,7 +223,7 @@
                     <a href="page.html" class="text-decoration-none">
                       <img src="/assets/images/bichon.jpg" alt="Project 3" class="img-fluid">
                     </a>
-                    <p class="mb-0">비숑</p>
+                    <p class="mb-0">박태권님 강아지</p>
                   </div>
                 </div>
                 <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
