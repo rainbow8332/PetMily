@@ -138,26 +138,34 @@
  <!-- 헤더[E] -->
 
 	<form action="write" mothod="post">
-	<h1>게시판 검색</h1>
-	<table width="500" cellpadding="0" cellspacing="0" border="1">
-		<tr>
-			<td>번호</td>
-			<td>이름</td>
-			<td>제목</td>
-			<td>날짜</td>
+	
+	<div class="pt-5" align="center">
+	<h1>PETMILY BOARD</h1>
+	</div>
+	<div class="row justify-content-center my-5" style="margin: 100px 200px 0px 200px">
+	<table class="table table text-center">
+	  <thead style="background-color: #f5f5dc;">
+	    <tr>
+			<th scope="col" style="width: 80px;">번호</th>
+			<th scope="col" style="width: 200px;">제목</th>
+			<th scope="col" style="width: 500px;">내용</th>
+			<th scope="col" style="width: 200px;">작성자</th>
+			<th scope="col" style="width: 200px;">날짜</th>
 		</tr>
-		<c:forEach items="${list}" var="dto">
-		<tr>
-			<td>${dto.bId}</td>
-			<td>${dto.bName}</td>
-			<td><a href="content_view?bId=${dto.bId}">${dto.bTitle}</a></td>
-			<td>${dto.bDate}</td>
-		</tr>
-		</c:forEach>
-		<tr>
-			<td colspan="5"> <a href="write_view">글작성</a> </td>
-		</tr>
+	  </thead>
+	  <tbody>
+	    <c:forEach items="${list}" var="dto">
+					<tr>
+						<td>${dto.seqno}</td>
+						<td>${dto.title}</td>
+						<td><a href="content_view?seqno=${dto.seqno}">${dto.content}</a></td>
+						<td>${dto.writer}</td>
+						<td>${dto.initdate}</td>
+					</tr>
+				</c:forEach>	
+	  </tbody>
 	</table>
+</div>
 	
 		
 </form>
