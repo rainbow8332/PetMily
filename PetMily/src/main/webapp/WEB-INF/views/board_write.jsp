@@ -146,9 +146,9 @@
 <form action="write" enctype="multipart/form-data" method="post">
 	<div class="container">
 		<div class="row text-center">
-			<h3 style="margin: 30px 50px 10px 0px">
-				<strong>게시물 작성</strong>
-			</h3>
+			<div class="pt-5" align="center">
+				<h1>BOARD WRITE</h1>
+			</div>
 		</div>
 
 		<div class="row justify-content-center">
@@ -185,7 +185,7 @@
 		<!-- 등록 버튼 -->
 		<div class="row justify-content-center my-5 text-center">
 			<div class="col-4">
-				<input class="btn btn-warning w-100" type="submit" value="등록" >
+				<input class="btn btn-warning w-50" type="submit" value="등록" >
 			</div>
 		</div>
 	</div>
